@@ -1,0 +1,57 @@
+<view class="page-border-title">原始数据</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="page-border-text">材料部分</view>
+  <view class="page-body-text">宽度：
+    <input class="input" type='number' name="width"/>米
+  </view>
+  <view class="page-body-text">防腐处理(油漆)原价：
+    <input class="input" type='number' name="u1"/>元/米
+  </view>
+  <view class="page-body-text">钢角铁原价：
+    <input class="input" type='number' name="u2"/>元/米
+  </view>
+  <view class="page-body-text">25mm锌钢支架原价：
+    <input class="input" type='number' name="u3"/>元/套
+  </view>
+  <view class="page-body-text">3mm钢拉索单价：
+  <input class="input" type='number' name="u4" />元/米
+  </view>
+  <view class="page-body-text">钢索数量：
+  <input class="input" type='number' name="l4"/>米
+  </view> 
+  <view class="page-body-text">钢索是否参与调价：
+  <radio-group name="radio" bindchange="radioChange">
+      <label><radio value="yes"/>是</label> 
+      <label><radio value="no" checked='true'/>否</label>
+  </radio-group>
+  </view>
+  <view class="page-body-text">立柱氟碳漆喷涂原价：
+    <input class="input" type='number' name="u5" />元/米
+  </view>
+  <view class="page-body-text">其他配件原价：
+    <input class="input" type='number' name="u6"/>元/米
+  </view>
+  <view class="page-body-text">损耗比重：
+    <input class="input" type='number' name="lossRate"/>%(sample: 5%)
+  </view>
+  <view class="page-border-text">其他费用(不参与调价)</view>
+  <view class="page-body-text">运费：
+    <input class="input" type='number' name="freight"/>元/米
+  </view>
+  <view class="page-body-text">包装费：
+    <input class="input" type='number' name="packageFee"/>元/米
+  </view>
+  <view class="page-body-text">制作费：
+    <input class="input" type='number' name="makeFee"/>元/米
+  </view>
+  <view class="page-body-text">安装费：
+    <input class="input" type='number' name="installFee"/>元/米
+  </view>
+  <view class="page-body-text">单价调整：
+    <input class="input" type='number' name="rate"/>%(sample: 10%)
+  </view>
+  <view class='button-sp-area'>
+    <button formType="submit" size='mini'>计算</button>
+    <button formType="reset" size='mini'>重置</button>
+  </view>
+</form>

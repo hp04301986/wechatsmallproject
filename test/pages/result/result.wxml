@@ -1,0 +1,21 @@
+<!--pages/result/result.wxml-->
+<view class="page-border-title">供参考结果</view>
+<view class="page-border-text">材料部分调整后单价：</view>
+<view class="page-body-text">宽度：<text>{{width}}</text>米</view>
+<view class="page-body-text">防腐处理(油漆)：<text>{{u1}}</text>元/米</view>
+<view class="page-body-text">140*140*10L型钢角铁：<text>{{u2}}</text>元/米</view>
+<view class="page-body-text">25mm锌钢支架：<text>{{u3}}</text>套/米</view>
+<view class="page-body-text">3mm钢拉索：<text>{{u4}}</text>元/米</view>
+<view class="page-body-text">钢索数量：<text>{{l4}}</text>米</view>
+<view class="page-body-text">钢索是否参与调价：<text>{{if4}}</text></view>
+<view class="page-body-text">立柱氟碳漆喷涂：<text>{{u5}}元/米</text></view>
+<view class="page-body-text">其他配件：<text>{{u6}}</text>元/米</view>
+<view class="page-body-text">损耗比例：<text>{{lossRate}}</text>%</view>
+<view class="page-border-text">其他费用(不参与调价)</view>
+<view class="page-body-text">运费：<text>{{freight}}</text>元/米</view>
+<view class="page-body-text">包装费：<text>{{packageFee}}</text>元/米</view>
+<view class="page-body-text">制作费：<text>{{makeFee}}</text>元/米</view>
+<view class="page-body-text">安装费：<text>{{installFee}}</text>元/米</view>
+<view class="page-body-text">调整前单价：<text>{{initValue}}</text>元/米</view>
+<view class="page-body-text">调整后单价：<text>{{targetValue}}</text>元/米</view>
+<view class="page-body-text">总单价调整比例：<text>{{rate}}</text>%</view>

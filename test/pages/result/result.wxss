@@ -1,0 +1,31 @@
+/* pages/result/result.wxss */
+.page-body-text {
+  color: #848484;
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.page-border-text {
+  color: #009100;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.page-border-title{
+  color: #009100;
+  font-size: 40rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+text{
+  color: #009100;
+}
